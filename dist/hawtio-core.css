@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+
+.help-secondary-tabs {
+  text-transform: capitalize;
+}
+
+.pf-c-page__main {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.66666667;
+  color: #363636;
+}
+.pf-c-page__header .pf-c-dropdown,
+.pf-c-page__sidebar .pf-c-nav {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand-icon,
+.navbar-brand-name {
+  max-height: 35px;
+}
+
+.pf-c-page__main-section {
+  height: 100%;
+  overflow: auto;
+  padding: 0;
+}
+.pf-c-page__main-section div[ng-view] {
+  height: 100%;
+  overflow: auto;
+  padding-left: 32px;
+  padding-right: 20px;
+}
+.pf-c-page__main-section div[ng-view] .hawtio-tabs {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.pf-c-app-launcher__toggle .fa-th {
+  vertical-align: middle;
+}
+.pf-c-app-launcher__menu {
+  right: 0;
+}
+
+.pf-c-page__header-selector {
+  margin-left: 32px;
+}
+
+.hawtio-tabs {
+  flex: 0 0 auto;
+  margin-left: 32px;
+  margin-right: 20px;
+}
+
+.nav-tabs-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+  padding-top: 20px;
+}
+.nav-tabs-main > div[ng-view] {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  position: relative;
+}
+
+#userDropdownMenu {
+  background-image: url('img/img_avatar.svg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 36px;
+  margin-left: 16px;
+  padding: 0 50px 0 0;
+  vertical-align: middle;
+  display: inline-block;
+  max-width: 16em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.logging-preferences-form {
+  margin-top: 20px;
+}
+.child-logger-label {
+  font-weight: normal;
+  text-align: left !important;
+  padding-right: 0;
+}
+.child-logger-select {
+  display: inline-block;
+  width: calc(100% - 40px);
+}
+.child-logger-delete-button {
+  float: right;
+}
+
+.preferences-reset-alert {
+  margin-top: 20px;
+}
+
+.loading-centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loading-label {
+  margin-top: 5px;
+}
+.loading-content {
+  height: 100%;
+}
